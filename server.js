@@ -78,6 +78,6 @@ app.use('/anime', animeController)
 //////////////////////
 // EXPRESS LISTENER //
 //////////////////////
-app.listen(3000, () => {
-    console.log('Express listening on port 3000...');
+app.listen(PORT, () => {
+    console.log('Express listening...');
 });

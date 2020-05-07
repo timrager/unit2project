@@ -1,0 +1,25 @@
+body {
+    background: lightgray;
+}
+
+a, form {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/* Materialize Overrides */
+.row .col.m4, .row .col.m6{
+    margin-left: initial;
+    margin-right: initial;
+}
+
+.row{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.brand-logo{
+    margin-left: 30px;
+    text-shadow: 2px 2px black;
+}

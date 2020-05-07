@@ -8,7 +8,7 @@ class Navbar extends React.Component{
           <div class="nav-wrapper blue darken-4">
             <a href="#" class="brand-logo">Anime Tracker : アニメトラッカー</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="http://localhost:3000/anime/new">Enter New Series</a></li>
+              <li><a href="/anime/new">Enter New Series</a></li>
             </ul>
           </div>
         </nav>

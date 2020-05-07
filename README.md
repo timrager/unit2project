@@ -1,5 +1,4 @@
 # Unit 2 Project - CRUD Application
-***
 
 ## Technologies Used
 Distributed via Heroku, a platform as a service. 
@@ -15,8 +14,6 @@ HTML / CSS - providing page structure and page styling
 Express.js - a module server framework for Node
 
 JSX - JavaScript Extension, used by React to create reusable web components
-
-
 
 ## User Stories
 1. As a user, I want to be able to add new series to track shows I may be interested in.
@@ -44,6 +41,10 @@ On each page for a particular series is more detailed information such as number
 ![whiteboard](whiteboard.png)
 
 ## Unsolved Problems / Future Feature Possibilities
-
+* Being able to sort the lists with attributes (i.e. by title, alphabetically, etc.)
+* Being able to move and resize cards
+* Select the number of cards to see on the screen at any given time
+* API to other databases that may have live data
+* Login system for multiple users, user accounts
 
 ## Notes

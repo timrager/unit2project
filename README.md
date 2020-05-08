@@ -16,7 +16,7 @@ HTML / CSS - providing page structure and page styling
 [JSX](https://facebook.github.io/jsx/) - JavaScript Extension, used by React to create reusable web components
 
 ## User Stories
-1. As a user, I want to be able to add new series to track shows I may be interested in.
+1. As a user, I want to be able to add a new series to track shows I may be interested in.
 2. As a user, I want to be able to add new episodes I may be interested in.
 3. As a user, I want to be able to link episodes to series, so I can see all episodes related to a series
 4. As a user, I want to be able to add information such as: 
@@ -37,7 +37,7 @@ Each series has options to either get more information about the series, edit th
 
 On each page for a particular series is more detailed information such as number of episodes, rating, etc., but also additional cards of related episodes. 
 
-## Wireframes
+## Card Wireframes
 ![whiteboard](whiteboard.png)
 
 ## Unsolved Problems / Future Feature Possibilities
@@ -49,5 +49,5 @@ On each page for a particular series is more detailed information such as number
 
 ## Notes
 * Utilizing Heroku + mLab MonboDB to deploy app
-* [Heroku app](https://mae-unit2project.herokuapp.com/anime)
+* [Heroku app](https://mae-unit2project.herokuapp.com/anime) Anime Tracker
 * [Github repository](https://github.com/timrager/unit2project)

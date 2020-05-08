@@ -3,17 +3,17 @@
 ## Technologies Used
 Distributed via [Heroku](https://www.heroku.com), a platform as a service. 
 
-Node.js - an open source Javascript runtime environment, allowing JS code outside of a web browser
+[Node.js](https://nodejs.org/en/) - an open source Javascript runtime environment, allowing JS code outside of a web browser
 
-MongoDB - a cross platform, document-oriented, NoSQL database program
+[MongoDB](https://www.mongodb.com) - a cross platform, document-oriented, NoSQL database program
 
-Mongoose - an Object Data Modeling (ODM) library for MongoDB and Node.js.
+[Mongoose](https://www.mongoosejs.com) - an Object Data Modeling (ODM) library for MongoDB and Node.js.
 
 HTML / CSS - providing page structure and page styling
 
-Express.js - a module server framework for Node
+[Express.js](https://expressjs.com) - a module server framework for Node
 
-JSX - JavaScript Extension, used by React to create reusable web components
+[JSX](https://facebook.github.io/jsx/) - JavaScript Extension, used by React to create reusable web components
 
 ## User Stories
 1. As a user, I want to be able to add new series to track shows I may be interested in.
@@ -31,7 +31,7 @@ JSX - JavaScript Extension, used by React to create reusable web components
 6. When clicking on a series, I want to see information about that series and information about related episodes
 
 ## Approach Taken
-As anime tends to be a very visual form of media, I wanted to utlize Materialize's cards as a way to visually lay out and display series.
+As anime tends to be a very visual form of media, I wanted to utilize Materialize's cards as a way to visually lay out and display series.
 
 Each series has options to either get more information about the series, edit the series, add episodes, or delete the series from the page. 
 
@@ -42,9 +42,12 @@ On each page for a particular series is more detailed information such as number
 
 ## Unsolved Problems / Future Feature Possibilities
 * Being able to sort the lists with attributes (i.e. by title, alphabetically, etc.)
-* Being able to move and resize cards
+* Being able to physically click/drag to move and resize cards
 * Select the number of cards to see on the screen at any given time
-* API to other databases that may have live data
+* API to other databases that may have live data, such as streaming services or news sites
 * Login system for multiple users, user accounts
 
 ## Notes
+* Utilizing Heroku + mLab MonboDB to deploy app
+* [Heroku app](https://mae-unit2project.herokuapp.com/anime)
+* [Github repository](https://github.com/timrager/unit2project)

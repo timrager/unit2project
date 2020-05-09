@@ -43,10 +43,14 @@ On each page for a particular series is more detailed information such as number
 ## Unsolved Problems / Future Feature Possibilities
 * Being able to sort the lists with attributes (i.e. by title, alphabetically, etc.)
 * Being able to physically click/drag to move and resize cards
+* Being able to physically stack and group cards
 * Selective sort, such as for title, keyword, etc.
 * Select the number of cards to see on the screen at any given time
 * API to other databases that may have live data, such as streaming services or news sites
 * Login system for multiple users, user accounts
+* Share via Facebook, Twitter, etc.
+
+## Unsolved Problems
 * Card layouts can get be a little unpredictable when adding new cards
 
 ## Notes

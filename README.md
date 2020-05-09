@@ -9,7 +9,7 @@ Distributed via [Heroku](https://www.heroku.com), a platform as a service.
 
 [Mongoose](https://www.mongoosejs.com) - an Object Data Modeling (ODM) library for MongoDB and Node.js.
 
-HTML / CSS - providing page structure and page styling
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) / [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - providing page styling, especially with Google's [Materialize](https://materializecss.com).
 
 [Express.js](https://expressjs.com) - a module server framework for Node
 
@@ -43,6 +43,7 @@ On each page for a particular series is more detailed information such as number
 ## Unsolved Problems / Future Feature Possibilities
 * Being able to sort the lists with attributes (i.e. by title, alphabetically, etc.)
 * Being able to physically click/drag to move and resize cards
+* Selective sort, such as for title, keyword, etc.
 * Select the number of cards to see on the screen at any given time
 * API to other databases that may have live data, such as streaming services or news sites
 * Login system for multiple users, user accounts

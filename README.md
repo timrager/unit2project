@@ -49,6 +49,6 @@ On each page for a particular series is more detailed information such as number
 * Login system for multiple users, user accounts
 
 ## Notes
-* Utilizing Heroku + mLab MonboDB to deploy app
+* Utilizing Heroku + [mLab](https://mlab.com) MonboDB to deploy app
 * [Heroku app](https://mae-unit2project.herokuapp.com/anime) Anime Tracker
 * [Github repository](https://github.com/timrager/unit2project)

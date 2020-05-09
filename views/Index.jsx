@@ -27,9 +27,9 @@ class Index extends React.Component{
                             <p>{series.synopsis}</p>
                           </div>
                           <div className="card-action">
-                            <a href={`/anime/${series._id}/edit`} className="waves-effect waves-light btn-small"><i className="material-icons right">edit</i>Edit Series</a>
-                            <a href={`/anime/${series._id}`} className="waves-effect waves-light btn-small"><i className="material-icons right">search</i>Series Details</a>
-                            <a href={`/anime/neweps/${series._id}`} className="waves-effect waves-light btn-small"><i className="material-icons right">add</i>Add Episodes</a>
+                            <a href={`/anime/${series._id}/edit`} className="waves-effect waves-light btn-small light-blue darken-4"><i className="material-icons right">edit</i>Edit Series</a>
+                            <a href={`/anime/${series._id}`} className="waves-effect waves-light btn-small light-blue darken-4"><i className="material-icons right">search</i>Series Details</a>
+                            <a href={`/anime/neweps/${series._id}`} className="waves-effect waves-light btn-small light-blue darken-4"><i className="material-icons right">add</i>Add Episodes</a>
                             <form action={`/anime/${series._id}?_method=DELETE`} method="POST">
                                         <button type="submit" value="delete" className="waves-effect waves-light btn-small red"><i className="material-icons right">delete</i>Delete Series</button>
                             </form>

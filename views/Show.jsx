@@ -27,10 +27,11 @@ class Show extends React.Component {
                             <p>Notes: {notes}</p>
                           </div>
                           <div className="card-action">
+                            <a href={`/anime/${_id}/edit`} className="waves-effect waves-light btn-small light-blue darken-4"><i className="material-icons right">edit</i>Edit Series</a>
                             <form action={`/anime/${_id}?_method=DELETE`} method="POST">
-                                        <button type="submit" value="delete" className="waves-effect waves-light btn-small"><i className="material-icons right">delete</i>Delete Series</button>
+                                        <button type="submit" value="delete" className="waves-effect waves-light btn-small red"><i className="material-icons right">delete</i>Delete Series</button>
                             </form>
-                            <a href={`/anime/${_id}/edit`} className="waves-effect waves-light btn-small"><i className="material-icons right">edit</i>Edit Series</a>
+
                           </div>
                         </div>
                       </div>
@@ -52,7 +53,7 @@ class Show extends React.Component {
                             <p>Notes: {aEpisode.epNotes}</p>
                           </div>
                           <div className="card-action">
-                            <a href={`/anime/episode/${aEpisode._id}/edit`} className="waves-effect waves-light btn-small"><i className="material-icons right">edit</i>Edit Episode</a>
+                            <a href={`/anime/episode/${aEpisode._id}/edit`} className="waves-effect waves-light btn-small light-blue darken-4"><i className="material-icons right">edit</i>Edit Episode</a>
                             <form action={`/anime/episode/${aEpisode._id}?_method=DELETE`} method="POST">
                                         <button type="submit" value="delete" className="waves-effect waves-light btn-small red"><i className="material-icons right">delete</i>Delete Episode</button>
                             </form>

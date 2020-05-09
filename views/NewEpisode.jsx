@@ -62,7 +62,7 @@ class New extends React.Component{
                         </div>
                     </div>
 
-                    <input type="submit" name="" value="Submit"/>
+                    <input type="submit" className="waves-effect waves-light btn light-blue darken-2" name="" value="Submit"/>
 
                 </form>
             </div>

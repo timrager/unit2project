@@ -55,7 +55,7 @@ class Edit extends React.Component{
                         </div>
                     </div>
 
-                    <input type="submit" name="" value="Submit Edit"/>
+                    <input type="submit"  className="waves-effect waves-light btn-small light-blue darken-2" name="" value="Submit Edit"/>
 
 
                 </form>

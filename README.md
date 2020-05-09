@@ -47,6 +47,7 @@ On each page for a particular series is more detailed information such as number
 * Select the number of cards to see on the screen at any given time
 * API to other databases that may have live data, such as streaming services or news sites
 * Login system for multiple users, user accounts
+* Card layouts can get be a little unpredictable when adding new cards
 
 ## Notes
 * Utilizing Heroku + [mLab](https://mlab.com) MonboDB to deploy app

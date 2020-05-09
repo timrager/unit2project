@@ -9,7 +9,7 @@ Distributed via [Heroku](https://www.heroku.com), a platform as a service.
 
 [Mongoose](https://www.mongoosejs.com) - an Object Data Modeling (ODM) library for MongoDB and Node.js.
 
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) / [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - providing page styling, especially with Google's [Materialize](https://materializecss.com).
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) / [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - page styling with Google's [Materialize](https://materializecss.com) CSS framework.
 
 [Express.js](https://expressjs.com) - a module server framework for Node
 

@@ -40,7 +40,7 @@ On each page for a particular series is more detailed information such as number
 ## Card Wireframes
 ![whiteboard](whiteboard.png)
 
-## Unsolved Problems / Future Feature Possibilities
+## Future Feature Possibilities
 * Being able to sort the lists with attributes (i.e. by title, alphabetically, etc.)
 * Being able to physically click/drag to move and resize cards
 * Being able to physically stack and group cards
